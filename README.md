@@ -8,4 +8,8 @@ Basic Validation  − First of all, the form must be checked to make sure all th
 Data Format Validation − Secondly, the data that is entered must be checked for correct form and value. Your code must include appropriate logic to test correctness of data.
 ![form_1](https://user-images.githubusercontent.com/54896331/107805216-0b283c00-6d8b-11eb-8eca-31e4e0e258b5.png)
 
-### First let us see how to do a basic form validation. In the above form, we are calling validate() to validate data when onsubmit event is occurring. If the Form is empty and submitted then condition for the empty gets true and there will be RED BORDER around the boxes to show it is INVALID Action.
+### First let us see how to do a basic form validation. In the above form, we are calling validate() to validate data when onsubmit event is occurring. If the Form is empty setErrorMsg function will be called and submitted then condition for the empty gets true and there will be RED BORDER around the boxes to show it is INVALID Action.
+![form_2](https://user-images.githubusercontent.com/54896331/107805807-e6809400-6d8b-11eb-8dc1-9c0a6340f683.png)
+### If the entered details follow the given conditon setSuccesMsg will be called , there will be the GREEN BORDER around the box and a TICK representing it is Correct and Accepted.
+There are criteria for each elements like name should more than 3 characters and  An email address must contain at least a ‘@’ sign and a dot (.). Also, the ‘@’ must not be the first character of the email address, and the last dot must at least be one character after the ‘@’ sign, otherwise a Message will Pop-up for the same invalid action.
+
