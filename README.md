@@ -6,3 +6,4 @@ JavaScript provides a way to validate form's data on the client's computer befor
 Basic Validation  − First of all, the form must be checked to make sure all the mandatory fields are filled in. It would require just a loop through each field in the form and check for data.
 
 Data Format Validation − Secondly, the data that is entered must be checked for correct form and value. Your code must include appropriate logic to test correctness of data.
+### First let us see how to do a basic form validation. In the above form, we are calling validate() to validate data when onsubmit event is occurring. If the Form is empty and submitted then condition for the empty gets true and there will be RED BORDER around the boxes to show it is INVALID Action.
