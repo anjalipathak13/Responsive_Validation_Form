@@ -29,6 +29,10 @@ if(passwordval == ""){
 ![form_5](https://user-images.githubusercontent.com/54896331/107808396-84299280-6d8f-11eb-92df-d4537e5fea43.png)
 ### This Validation Form is Responsive.
  A mobile responsive form, or responsive form, provides an optimal viewing and interaction experience across a wide range of devices, from desktop to mobile. Responsive forms offer easy reading and navigation. In short, responsive forms look and work seamlessly across all devices that your customers or form viewers may be using.
+ ![form_6](https://user-images.githubusercontent.com/54896331/107808862-411bef00-6d90-11eb-816f-b9372ce62fbb.png)
+ 
+ 
+### THANK YOU!
  
 
 
