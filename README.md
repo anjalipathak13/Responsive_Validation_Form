@@ -12,4 +12,17 @@ Data Format Validation − Secondly, the data that is entered must be checked fo
 ![form_2](https://user-images.githubusercontent.com/54896331/107805807-e6809400-6d8b-11eb-8dc1-9c0a6340f683.png)
 ### If the entered details follow the given conditon setSuccesMsg will be called , there will be the GREEN BORDER around the box and a TICK representing it is Correct and Accepted.
 There are criteria for each elements like name should more than 3 characters and  An email address must contain at least a ‘@’ sign and a dot (.). Also, the ‘@’ must not be the first character of the email address, and the last dot must at least be one character after the ‘@’ sign, otherwise a Message will Pop-up for the same invalid action.
+![form_3](https://user-images.githubusercontent.com/54896331/107806780-47f53280-6d8d-11eb-935b-f908749bde18.png)
+### For Password Validation the minimum lenght is set is 8 characters otherwise the Error message is displayed (Minimum 8 characters).
+if(passwordval == ""){
+        setErrorMsg(password, 'Password cannot be blank');
+    }else if(passwordval.length<=8)
+    {
+        setErrorMsg(password, 'Minimum 8 character');
+    }else
+    {
+        setSuccessMsg(password);
+    }
+### Same Conditons will be followed for the Confirm Password.
+
 
