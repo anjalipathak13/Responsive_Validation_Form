@@ -24,5 +24,7 @@ if(passwordval == ""){
         setSuccessMsg(password);
     }
 ### Same Conditons will be followed for the Confirm Password.
+![form_4](https://user-images.githubusercontent.com/54896331/107807888-d0280780-6d8e-11eb-99b6-6349b4befb9f.png)
+### If all the Fields have satisfied the Condition and valid the After clicking the Submit button all the fields will have GREEN BORDER and GREEN TICK.
 
 
