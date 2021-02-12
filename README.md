@@ -26,5 +26,9 @@ if(passwordval == ""){
 ### Same Conditons will be followed for the Confirm Password.
 ![form_4](https://user-images.githubusercontent.com/54896331/107807888-d0280780-6d8e-11eb-99b6-6349b4befb9f.png)
 ### If all the Fields have satisfied the Condition and valid the After clicking the Submit button all the fields will have GREEN BORDER and GREEN TICK.
+![form_5](https://user-images.githubusercontent.com/54896331/107808396-84299280-6d8f-11eb-92df-d4537e5fea43.png)
+### This Validation Form is Responsive.
+ A mobile responsive form, or responsive form, provides an optimal viewing and interaction experience across a wide range of devices, from desktop to mobile. Responsive forms offer easy reading and navigation. In short, responsive forms look and work seamlessly across all devices that your customers or form viewers may be using.
+ 
 
 
